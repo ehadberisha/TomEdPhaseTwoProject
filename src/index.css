@@ -203,3 +203,9 @@ code {
   color: #050404;
   font-size: 14px;
 }
+
+.mainpage {
+  background-image: url("https://t4.ftcdn.net/jpg/04/99/16/73/240_F_499167318_cIq60CEh7fDnveEehtt2O0eg0tIHIaNr.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
