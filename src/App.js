@@ -12,26 +12,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import MainTitle from "./MainTitle";
 
 function App() {
-  // const [cars, setCars] = useState([]);
-  // useEffect(() => {
-  //   fetch("http://localhost:3001/cars", {
-  //     method: "POST",
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //     },
-  //     body: JSON.stringify(FormData),
-  //   }).then((resp) => {
-  //     if (resp.ok) {
-  //       return resp.json();
-  //     } else {
-  //       throw Error("New Car Not Created");
-  //     }
-  //   });
-  // }, []);
-
-  // const addCar = (carData) => {
-  //   setCars([...cars, carData]);
-  // };
+  
 
   return (
     <div className="mainpage">

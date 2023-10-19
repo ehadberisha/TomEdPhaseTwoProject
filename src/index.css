@@ -22,10 +22,10 @@ code {
   background-color: #f4f4f4;
   border: 1px solid #ddd;
   border-radius: 10px;
-  padding: 5px; /* Padding inside the container */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle depth effect */
-  text-align: left; /* Text alignment */
-  max-width: 272px; /* Set a maximum width for the box */
+  padding: 5px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  text-align: left; 
+  max-width: 272px; 
 }
 
 .sellerclass {
@@ -95,35 +95,35 @@ code {
   background-color: #f4f4f4;
   border: 1px solid #ddd;
   border-radius: 10px;
-  padding: 5px; /* Padding inside the container */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle depth effect */
-  text-align: left; /* Text alignment */
-  max-width: 250px; /* Set a maximum width for the box */
+  padding: 5px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  text-align: left; 
+  max-width: 250px; 
 }
 
-/* Styling for card details */
+
 .card_detail {
-  font-size: 18px; /* Font size for details */
-  color: #666; /* Text color for details */
-  margin-top: 10px; /* Space between title and details */
+  font-size: 18px; 
+  color: #666; 
+  margin-top: 10px; 
 }
 
 .card_detail p {
-  border-right: 1px solid #ccc; /* Add a thin gray border on the right side of each <p> element */
-  padding-right: 10px; /* Padding to separate the text from the border */
-  display: inline-block; /* Make <p> elements display inline to stack them horizontally */
-  margin-right: 10px; /* Space between each <p> element */
+  border-right: 1px solid #ccc; 
+  padding-right: 10px; 
+  display: inline-block; 
+  margin-right: 10px; 
   margin-bottom: 60px;
 }
 
 .card_detail p:last-child {
-  border-right: none; /* Remove the border on the last <p> element */
-  margin-right: 0; /* Remove the margin on the last <p> element */
+  border-right: none; 
+  margin-right: 0; 
 }
 
 .postformclass {
-  float: right; /* Float the container to the right */
-  padding: 20px; /* Add padding to create space around the form */
+  float: right;
+  padding: 20px; 
   font-size: 16px;
   color: #333;
   margin-right: 250px;
@@ -192,7 +192,7 @@ code {
   color: #fff;
   font-weight: bold;
   font-size: 28px;
-  margin-left: auto; /* Move the element to the right */
+  margin-left: auto; 
 }
 
 .aboutusclass {

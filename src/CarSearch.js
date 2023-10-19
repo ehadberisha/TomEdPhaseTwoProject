@@ -28,7 +28,7 @@ function CarSearcher() {
     return brandMatch || modelMatch;
   });
   const addCar = (car) => {
-    setCars([...cars, car]); // Update the list of cars with the new car data
+    setCars([...cars, car]); 
   };
   return (
     <div>
