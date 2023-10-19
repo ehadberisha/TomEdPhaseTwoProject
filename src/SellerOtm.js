@@ -2,18 +2,18 @@ import React, { useState, useEffect } from "react";
 import SellerList from "./SellerList";
 
 function SellerOtm() {
-  const [seller, setSeller] = useState([]);
+  const [sellers, setSellers] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3001/cars")
+    fetch("http://localhost:3001/sellers")
       .then((resp) => resp.json())
       .then((sellerArray) => {
-        setSeller(sellerArray);
+        setSellers(sellerArray);
       });
   }, []);
   return (
     <div className="sellerclass">
       <h1>This Month's Top Sellers</h1>
-      <SellerList seller={seller} />
+      <SellerList sellers={sellers} />
       <p></p>
     </div>
   );
